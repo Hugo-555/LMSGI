@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Horario</title>
+<style>
+    table { border-collapse: collapse; width: 90%; max-width: 800px; margin: 20px auto; font-family: sans-serif; }
+    th, td { border: 1px solid #ccc; padding: 15px 10px; text-align: center; vertical-align: middle; }
+    thead th { background: #f4f4f4; font-weight: normal; color: #555; }
+    .r { letter-spacing: 5px; font-weight: bold; color: #888; }
+</style>
+</head>
+<body>
+
+<table>
+<caption>Horario del Grupo</caption>
+<thead>
+    <tr><th></th><th>LUNES</th><th>MARTES</th><th>MIÉRCOLES</th><th>JUEVES</th><th>VIERNES</th></tr>
+</thead>
+<tbody>
+    <tr><th>8.15</th><td rowspan="2">ADA</td><td>SIMR</td><td rowspan="3">PLE</td><td rowspan="3">PLE</td><td rowspan="2">ADA</td></tr>
+    <tr><th>9.15</th><td>ADA</td></tr>
+    <tr><th>10.15</th><td>PLE</td><td>ADA</td><td>PLE</td></tr>
+    <tr><th>11.15</th><td colspan="5" class="r">RECREO</td></tr>
+    <tr><th>11.45</th><td rowspan="3">SIMR</td><td>ADA</td><td rowspan="2">ADA</td><td rowspan="3">ADA</td><td>PLE</td></tr>
+    <tr><th>12.45</th><td rowspan="2">PLE</td><td rowspan="2">SIMR</td></tr>
+    <tr><th>13.45</th><td>IUA</td><td style="border: none;"></td></tr>
+</tbody>
+</table>
+
+</body>
+</html>
